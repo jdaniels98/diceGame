@@ -111,13 +111,14 @@ function singleplayer() {
 rstbtn.addEventListener("click", () => {
     dicebox.style.display = "none"
     game.style.display = "none";
+    pl2.style.display = "none";
     pl1btn.style.display = "block";
     pl2btn.style.display = "block";
     rstbtn.style.display = "none";
     pl1scr.textContent = "0";
     pl1win.textContent = "0"
     pl2scr.textContent = "0";
-    pl2win.textContent = "0"
+    pl2win.textContent = "0";
     dice.src = "images/dice6.png";
     para.style.display = "flex"
 })
@@ -125,12 +126,14 @@ pl1btn.addEventListener("click", () => {
     dicebox.style.display = "flex"
     pl1btn.style.display = "none";
     pl2btn.style.display = "none";
+    pl1rll.style.display = "block";
     game.style.display = "flex";
     pl2.style.display = "none";
     rstbtn.style.display = "block";
     pl1rll.textContent = "Roll";
     pl2rll.textContent = "Roll";
-    para.style.display = "none"
+    para.style.display = "none";
+    singleplayer();
 })
 pl2btn.addEventListener("click", () => {
     dicebox.style.display = "flex"
