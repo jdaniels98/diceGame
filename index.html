@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jack Daniels | Dice Game</title>
+</head>
+
+<body>
+    <div id="play">
+        <ul>
+            <li><button id="rstbtn">Restart</button></li>
+            <li><button id="pl1btn">1 Player Game</button></li>
+            <li><button id="pl2btn">2 Player Game</button></li>
+        </ul>
+    </div>
+    <div id="dice">
+        <img src="./images/dice6.png" alt="dice" id="imgDice">
+    </div>
+    <div id="game">
+        <div id="pl1">
+            <div class="plnm">
+                <h1>Player 1</h1>
+            </div>
+            <div class="plscr">
+                <p>Score: </p>
+                <p id="pl1scr">0</p>
+            </div>
+            <div class="wincntr">
+                <p class="wintxt">Wins: </p>
+                <p id="pl1win">0</p>
+            </div>
+            <div class="roll">
+                <button id="pl1rll">Roll</button>
+            </div>
+        </div>
+        <div id="pl2">
+            <div class="plnm">
+                <h1>Player 2</h1>
+            </div>
+            <div class="plscr">
+                <p>Score: </p>
+                <p id="pl2scr">0</p>
+            </div>
+            <div class="wincntr">
+                <p class="wintxt">Wins: </p>
+                <p id="pl2win">0</p>
+            </div>
+            <div class="roll">
+                <button id="pl2rll">Roll</button>
+            </div>
+        </div>
+    </div>
+    <div id="para">
+        <p>Welcome to my Dice Game Project! Simply press the buttons above to play alone, or with a friend, and enjoy a
+            game of chance!
+            <br>
+            <br>
+            <i>Roll the dice and reach a total of 20 to win, but don't roll a 1 or you'll lose
+                your total and go right back to 0!</i></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

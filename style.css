@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00ba7c;
+}
+
+#rstbtn {
+    display: none;
+}
+
+#dice {
+    display: none;
+    justify-content: center;
+    margin-top: 3vh;
+}
+#imgDice {
+    width: 18vw;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+.shake {
+    animation: shake 0.5s 1;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#play {
+    margin-top: 3vh;
+}
+#play ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 50vw;
+    margin-left: 25vw;
+}
+#play ul li {
+    padding: 0;
+    margin: 0;
+}
+#play ul li button {
+    margin: 0 5px 0 5px;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: #f8e71c;
+}
+
+#game {
+    display: none;
+    justify-content: space-evenly;
+    height: 20vw;
+    width: 80vw;
+    margin: 3vh 10vw 0 10vw;
+}
+#game p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#pl1 {
+    border: 4px solid black;
+    border-radius: 12px;
+    width: 35vh;
+    height: 35vh;
+    background-color: #f8e71c;
+}
+#pl2 {
+    border: 4px solid black;
+    border-radius: 12px;
+    width: 35vh;
+    height: 35vh;
+    background-color: #f8e71c;
+}
+
+.wintxt {
+    margin-left: 3vh;
+    margin-right: 13vh;
+}
+.plnm {
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    background-color: black;
+    color: #f8e71c;
+}
+
+.plscr {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+    margin-left: 1px;
+}
+
+.wincntr {
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+
+.roll {
+    display: flex;
+    justify-content: center;
+}
+#pl1rll, #pl2rll {
+    margin-top: 3vh;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: black;
+    color: #f8e71c;
+}
+
+#para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 5vw;
+    font-size: 25px;
+    font-weight: bold;
+}
+#para i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+}
