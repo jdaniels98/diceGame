@@ -139,6 +139,7 @@ pl2btn.addEventListener("click", () => {
     dicebox.style.display = "flex"
     pl1btn.style.display = "none";
     pl2btn.style.display = "none";
+    pl1rll.style.display = "block";
     game.style.display = "flex";
     pl2.style.display = "block";
     pl2rll.style.display = "none";
